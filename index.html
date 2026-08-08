@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>web-setlist</title>
+
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="web-setlist">
+
+  <header class="web-setlist-header">
+    <a href="index.html" class="web-setlist-logo">Web-Setlist</a>
+
+    <nav class="web-setlist-nav">
+      <a id="genresBtn" class="web-setlist-nav-item">Categories</a>
+    </nav>
+
+    <div id="genresMenu"></div>
+  </header>
+
+  <main>
+
+    <h2 id="pinnedHeader" class="pinned-header"></h2>
+
+    <section id="pinnedCards" class="post-cards"></section>
+
+    <section id="postCards" class="post-cards"></section>
+
+    <div class="pagination">
+      <button id="prevPage" class="page-arrow"></button>
+      <div id="pageNumber" class="page-number-box"></div>
+      <button id="nextPage" class="page-arrow"></button>
+    </div>
+  </main>
+
+  <script src="header.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

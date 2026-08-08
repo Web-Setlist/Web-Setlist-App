@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="postTitle"></title>
+
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="post.css" />
+</head>
+
+<body class="web-setlist">
+
+  <div class="web-setlist-header-wrapper">
+    <header class="web-setlist-header">
+      <a href="index.html" class="web-setlist-logo">Web-Setlist</a>
+
+      <nav class="web-setlist-nav">
+        <a id="genresBtn" class="web-setlist-nav-item">Categories</a>
+      </nav>
+
+      <div id="genresMenu"></div>
+    </header>
+  </div>
+
+  <main class="post-container">
+
+    <h1 id="post-title" class="post-title"></h1>
+
+    <div id="post-text" class="post-text"></div>
+
+    <div id="post-images" class="post-images"></div>
+
+    <div id="image-overlay" class="image-overlay">
+      <span id="overlay-close" class="overlay-close">×</span>
+      <img id="overlay-img" class="overlay-img">
+
+      <div class="overlay-nav">
+        <span id="overlay-prev" class="overlay-btn">&#10094;</span>
+        <span id="overlay-next" class="overlay-btn">&#10095;</span>
+      </div>
+    </div>
+
+    <div id="video-embeds" class="video-embeds"></div>
+    <div id="video-local" class="video-local"></div>
+
+    <div id="attachments" class="attachments"></div>
+
+  </main>
+
+  <script src="header.js"></script>
+  <script src="post.js"></script>
+</body>
+</html>
